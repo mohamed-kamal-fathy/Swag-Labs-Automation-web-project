@@ -1,0 +1,443 @@
+[DEBUG] - [17-05-2025 10:36:13] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\DELL\Desktop\DemoTestAutomationProject\testng.xml"
+[INFO] - [17-05-2025 10:36:13] [main] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [17-05-2025 10:36:16] [main] [com.swaglabs.listeners.TestNGListeners] - Test execution started
+[INFO] - [17-05-2025 10:36:16] [main] [com.swaglabs.utils.PropertiesUtils] - Loading Properties File Data
+[ERROR] - [17-05-2025 10:36:16] [main] [com.swaglabs.utils.FilesUtils] - 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #1: Cannot delete file: test-outputs\logs\log_2025-05-17_10-36-12.log]
+[INFO] - [17-05-2025 10:36:16] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\Desktop\DemoTestAutomationProject\testng.xml
+
+[INFO] - [17-05-2025 10:36:25] [main] [com.swaglabs.drivers.DriverManager] - Browser is created :  Edge
+[INFO] - [17-05-2025 10:36:26] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com
+[DEBUG] - [17-05-2025 10:36:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - [17-05-2025 10:36:27] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [17-05-2025 10:36:27] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: user-name
+[INFO] - [17-05-2025 10:36:27] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: user-name
+[INFO] - [17-05-2025 10:36:27] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:36:27] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.ElementActions] - Data Entered : standard_user into the field:  By.id: user-name
+[DEBUG] - [17-05-2025 10:36:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: password
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: password
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.ElementActions] - Data Entered : secret_sauce into the field:  By.id: password
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:28] [main] [com.swaglabs.utils.BrowserActions] - Current URL: https://www.saucedemo.com/inventory.html
+[INFO] - [17-05-2025 10:36:29] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: successfulLogin
+[DEBUG] - [17-05-2025 10:36:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.pages.P02_HomePage] - Adding product to cart:  Sauce Labs Backpack
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.Waits] - Waiting for element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  [unknown locator]
+[DEBUG] - [17-05-2025 10:36:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.Waits] - Waiting for element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  [unknown locator] Text:  Remove
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.pages.P02_HomePage] - Actual value:  Remove
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.pages.P02_HomePage] - Asserting product added to cart:  Sauce Labs Backpack
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: addingProductToCart
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [17-05-2025 10:36:31] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.cssSelector: [data-test='shopping-cart-link']
+[DEBUG] - [17-05-2025 10:36:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[DEBUG] - [17-05-2025 10:36:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['price']
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: .inventory_item_name
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: .inventory_item_name
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: .inventory_item_name
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_name
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_name
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  By.cssSelector: .inventory_item_name Text:  Sauce Labs Backpack
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_name
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: .inventory_item_price
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: .inventory_item_price
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: .inventory_item_price
+[INFO] - [17-05-2025 10:36:32] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_price
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_price
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  By.cssSelector: .inventory_item_price Text:  $29.99
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_price
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: checkingProductDetails
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.cssSelector: .checkout_button
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: .checkout_button
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: .checkout_button
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: .checkout_button
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .checkout_button
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .checkout_button
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.cssSelector: .checkout_button
+[DEBUG] - [17-05-2025 10:36:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-fourm']['first-name']
+[DEBUG] - [17-05-2025 10:36:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-fourm']['last-name']
+[DEBUG] - [17-05-2025 10:36:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-fourm']['zip-code']
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: first-name
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:33] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:34] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:34] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Data Entered : Samaa into the field:  By.id: first-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Data Entered : Ahmed into the field:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Data Entered : 12345 into the field:  By.id: postal-code
+[DEBUG] - [17-05-2025 10:36:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-fourm']['first-name']
+[DEBUG] - [17-05-2025 10:36:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-fourm']['last-name']
+[DEBUG] - [17-05-2025 10:36:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-fourm']['zip-code']
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: first-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Getting text from input:  By.id: first-name Text:  Samaa
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Getting text from input:  By.id: last-name Text:  Ahmed
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:35] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:36] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:36] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:36] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:36] [main] [com.swaglabs.utils.ElementActions] - Getting text from input:  By.id: postal-code Text:  12345
+[INFO] - [17-05-2025 10:36:36] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [17-05-2025 10:36:37] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:36:37] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: fillInformationFourm
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: continue
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: continue
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: continue
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: continue
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: continue
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: continue
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: continue
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: finish
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: finish
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: finish
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: finish
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: finish
+[INFO] - [17-05-2025 10:36:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: finish
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: finish
+[DEBUG] - [17-05-2025 10:36:40] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['confirmation-message']
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: .complete-header
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: .complete-header
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: .complete-header
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .complete-header
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .complete-header
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  By.cssSelector: .complete-header Text:  Thank you for your order!
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .complete-header
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: finishCheckout
+[INFO] - [17-05-2025 10:36:40] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:36:49] [main] [com.swaglabs.drivers.DriverManager] - Browser is created :  Edge
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com
+[DEBUG] - [17-05-2025 10:36:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: user-name
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: user-name
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.ElementActions] - Data Entered : standard_user into the field:  By.id: user-name
+[DEBUG] - [17-05-2025 10:36:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: password
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: password
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.ElementActions] - Data Entered : secret_sauce into the field:  By.id: password
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:51] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:52] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: login-button
+[INFO] - [17-05-2025 10:36:52] [main] [com.swaglabs.utils.BrowserActions] - Current URL: https://www.saucedemo.com/inventory.html
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: successfulLogin
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:37:01] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:37:02] [main] [com.swaglabs.utils.BrowserActions] - Current URL: https://www.saucedemo.com/
+[INFO] - [17-05-2025 10:37:03] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:37:03] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: logOut
+[INFO] - [17-05-2025 10:37:03] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:37:06] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:37:11] [main] [com.swaglabs.drivers.DriverManager] - Browser is created :  Edge
+[INFO] - [17-05-2025 10:37:12] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com
+[DEBUG] - [17-05-2025 10:37:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - [17-05-2025 10:37:12] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [17-05-2025 10:37:12] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:13] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:13] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:13] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.ElementActions] - Data Entered : standard_user into the field:  By.id: user-name
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: password
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: password
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.ElementActions] - Data Entered : <PASSWORD> into the field:  By.id: password
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:14] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  By.cssSelector: [data-test='error'] Text:  Epic sadface: Username and password do not match any user in this service
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: unsuccessfulLogin
+[INFO] - [17-05-2025 10:37:15] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:37:26] [main] [com.swaglabs.drivers.DriverManager] - Browser is created :  Edge
+[INFO] - [17-05-2025 10:37:27] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com
+[INFO] - [17-05-2025 10:37:27] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [17-05-2025 10:37:27] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:27] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:27] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:27] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.ElementActions] - Data Entered : stand into the field:  By.id: user-name
+[DEBUG] - [17-05-2025 10:37:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: password
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: password
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.ElementActions] - Data Entered : secret_sauce into the field:  By.id: password
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:28] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:29] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:29] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:29] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:29] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  By.cssSelector: [data-test='error'] Text:  Epic sadface: Username and password do not match any user in this service
+[INFO] - [17-05-2025 10:37:29] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:29] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:37:29] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: unsuccessfulLogin
+[INFO] - [17-05-2025 10:37:29] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:37:36] [main] [com.swaglabs.drivers.DriverManager] - Browser is created :  Edge
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com
+[DEBUG] - [17-05-2025 10:37:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['locked-username']
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.ElementActions] - Data Entered : locked_out_user into the field:  By.id: user-name
+[DEBUG] - [17-05-2025 10:37:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: password
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: password
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.ElementActions] - Data Entered : secret_sauce into the field:  By.id: password
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [17-05-2025 10:37:38] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  By.cssSelector: [data-test='error'] Text:  Epic sadface: Sorry, this user has been locked out.
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:39] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:37:50] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: lockedOutUserLogin
+[INFO] - [17-05-2025 10:37:50] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:37:56] [main] [com.swaglabs.drivers.DriverManager] - Browser is created :  Edge
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Data Entered :  into the field:  By.id: user-name
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: password
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: password
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Data Entered :  into the field:  By.id: password
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: login-button
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:58] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:59] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:59] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:59] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:59] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  By.cssSelector: [data-test='error'] Text:  Epic sadface: Username is required
+[INFO] - [17-05-2025 10:37:59] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='error']
+[INFO] - [17-05-2025 10:37:59] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:37:59] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: emptyFieldsLogin
+[INFO] - [17-05-2025 10:37:59] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:38:06] [main] [com.swaglabs.drivers.DriverManager] - Browser is created :  Edge
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com
+[DEBUG] - [17-05-2025 10:38:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: user-name
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: user-name
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.ElementActions] - Data Entered : standard_user into the field:  By.id: user-name
+[DEBUG] - [17-05-2025 10:38:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: password
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: password
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.ElementActions] - Data Entered : secret_sauce into the field:  By.id: password
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:08] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:09] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:09] [main] [com.swaglabs.utils.BrowserActions] - Current URL: https://www.saucedemo.com/inventory.html
+[INFO] - [17-05-2025 10:38:09] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:38:09] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: successfulLogin
+[DEBUG] - [17-05-2025 10:38:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [17-05-2025 10:38:09] [main] [com.swaglabs.pages.P02_HomePage] - Adding product to cart:  Sauce Labs Backpack
+[INFO] - [17-05-2025 10:38:09] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - [17-05-2025 10:38:09] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] - [17-05-2025 10:38:09] [main] [com.swaglabs.utils.Waits] - Waiting for element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  [unknown locator]
+[DEBUG] - [17-05-2025 10:38:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.Waits] - Waiting for element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  [unknown locator] Text:  Remove
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.pages.P02_HomePage] - Actual value:  Remove
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.pages.P02_HomePage] - Asserting product added to cart:  Sauce Labs Backpack
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: addingProductToCart
+[DEBUG] - [17-05-2025 10:38:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.pages.P02_HomePage] - Removing product from cart:  Sauce Labs Backpack
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.Waits] - Waiting for element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:10] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:11] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  [unknown locator]
+[DEBUG] - [17-05-2025 10:38:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [17-05-2025 10:38:11] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] - [17-05-2025 10:38:11] [main] [com.swaglabs.utils.Waits] - Waiting for element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:11] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:11] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:11] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:11] [main] [com.swaglabs.utils.ElementActions] - Text of the element:  [unknown locator] Text:  Add to cart
+[INFO] - [17-05-2025 10:38:11] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [17-05-2025 10:38:12] [main] [com.swaglabs.pages.P02_HomePage] - Actual value:  Add to cart
+[INFO] - [17-05-2025 10:38:12] [main] [com.swaglabs.pages.P02_HomePage] - Asserting product removed from cart:  Sauce Labs Backpack
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: removingProductFromCart
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: react-burger-menu-btn
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:38:13] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:38:14] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:38:14] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:38:14] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:38:14] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: logout_sidebar_link
+[INFO] - [17-05-2025 10:38:14] [main] [com.swaglabs.utils.BrowserActions] - Current URL: https://www.saucedemo.com/
+[INFO] - [17-05-2025 10:38:15] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to allure report
+[INFO] - [17-05-2025 10:38:15] [main] [com.swaglabs.listeners.TestNGListeners] - Test is successful: logOut
+[INFO] - [17-05-2025 10:38:15] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:38:17] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [17-05-2025 10:38:22] [main] [com.swaglabs.drivers.DriverManager] - Browser is created :  Edge
+[INFO] - [17-05-2025 10:38:23] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com
+[DEBUG] - [17-05-2025 10:38:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - [17-05-2025 10:38:23] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [17-05-2025 10:38:23] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: user-name
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: user-name
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.ElementActions] - Data Entered : standard_user into the field:  By.id: user-name
+[DEBUG] - [17-05-2025 10:38:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: password
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: password
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.ElementActions] - Data Entered : secret_sauce into the field:  By.id: password
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [17-05-2025 10:38:24] [main] [com.swaglabs.utils.Waits] - Waiting for element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:25] [main] [com.swaglabs.utils.Scroll] - Scrolling to element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:25] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:25] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:25] [main] [com.swaglabs.utils.ElementActions] - Clicked on the element:  By.id: login-button
+[INFO] - [17-05-2025 10:38:25] [main] [com.swaglabs.utils.BrowserActions] - Current URL: https://www.saucedemo.com/inventory.html
