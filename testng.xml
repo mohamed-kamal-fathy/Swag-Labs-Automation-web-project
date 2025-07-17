@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite" parallel="false">
+
+    <test name="HappyScenario">
+        <classes>
+            <class name="swaglabs.test.TC001_SuccessFullLogin"/>
+            <class name="swaglabs.test.TC006_AddProductToCart"/>
+            <class name="swaglabs.test.TC008_checkingProductDetails"/>
+            <class name="swaglabs.test.TC009_fillInformationFourm"/>
+            <class name="swaglabs.test.TC010_finishCheckout"/>
+        </classes>
+    </test>
+
+    <test name="LogOut">
+        <classes>
+            <class name="swaglabs.test.TC001_SuccessFullLogin"/>
+            <class name="swaglabs.test.TC011_LogOut"/>
+        </classes>
+    </test>
+
+    <test name="InvalidPassword">
+        <classes>
+            <class name="swaglabs.test.TC003_InvalidPassword"/>
+        </classes>
+    </test>
+
+    <test name="InvalidUserName">
+        <classes>
+            <class name="swaglabs.test.TC002_InvalidUserName"/>
+        </classes>
+    </test>
+
+    <test name="LockedOutUser">
+        <classes>
+            <class name="swaglabs.test.TC005_LockedOutUser"/>
+        </classes>
+    </test>
+
+    <test name="EmptyLogin">
+        <classes>
+            <class name="swaglabs.test.TC004_EmptyFieldsLogin"/>
+        </classes>
+    </test>
+
+    <test name="RemoveProduct">
+        <classes>
+            <class name="swaglabs.test.TC001_SuccessFullLogin"/>
+            <class name="swaglabs.test.TC006_AddProductToCart"/>
+            <class name="swaglabs.test.TC007_RemoveProductFromCart"/>
+            <class name="swaglabs.test.TC011_LogOut"/>
+        </classes>
+    </test>
+
+    <test name="EmptyInfoPage">
+        <classes>
+            <class name="swaglabs.test.TC001_SuccessFullLogin"/>
+            <class name="swaglabs.test.TC006_AddProductToCart"/>
+            <class name="swaglabs.test.TC008_checkingProductDetails"/>
+            <class name="swaglabs.test.TC012_EmptyInfoPage"/>
+
+
+
+        </classes>
+    </test>
+
+
+
+
+</suite>
