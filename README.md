@@ -1,5 +1,6 @@
 # 🧪 Automation Testing for SWAGLABS Website
-This project includes automation testing for the SWAGLABS website . The goal is to ensure the functionality, reliability, and performance of both applications through automated test scripts
+This project includes automation testing for the SWAGLABS website . 
+The goal is to ensure the functionality, reliability, and performance of both applications through automated test scripts.
 
 ## 🔧 Technologies Used
 Programming Language: Java
