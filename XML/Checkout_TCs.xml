@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="checkOut_SanityTesting">
+    <listeners>
+        <listener class-name="listeners.MethodListener"/>
+    </listeners>
+
+    <test name ="Parameterised checkOutPage test on chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestCases.TCs_P04_checkOut"/>
+        </classes>
+    </test>
+
+</suite>

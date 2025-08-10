@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EndToEnd_Testing" >
+    <listeners>
+        <listener class-name="listeners.MethodListener"/>
+    </listeners>
+    <test name ="EndToEnd">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestCases.EndToEnd"/>
+        </classes>
+    </test>
+
+</suite>

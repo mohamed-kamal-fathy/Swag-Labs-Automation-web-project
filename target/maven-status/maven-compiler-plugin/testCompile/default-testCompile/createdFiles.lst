@@ -1,0 +1,6 @@
+TestCases\BaseTests.class
+TestCases\TCs_P01_loginPage.class
+TestCases\EndToEnd.class
+TestCases\TCs_P03_CartPage.class
+TestCases\TCs_P02_landingPage.class
+TestCases\TCs_P04_checkOut.class
