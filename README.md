@@ -82,7 +82,7 @@ SwagLabsProject/
 - **Logging Framework**: Structured logging using Log4j2
 - **Utility Classes**: Reusable components for common actions
 - **End-to-End Testing**: Complete user journey testing from login to checkout
-- **Modular Architecture**: Well-organized package structure for maintainability
+- **Modular Architecture**: Well- organized package structure for maintainability
 
 ## 🎯 Test Coverage
 
