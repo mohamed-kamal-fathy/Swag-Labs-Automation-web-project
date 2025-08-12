@@ -1,0 +1,11 @@
+[INFO] 10-08-2025 17:17:24 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:17:24 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:17:25 [main] [TestCases.TCs_P04_checkOut] - Starting valid checkout test case
+[INFO] 10-08-2025 17:17:26 [main] [TestCases.TCs_P04_checkOut] - Login successful
+[INFO] 10-08-2025 17:17:26 [main] [TestCases.TCs_P04_checkOut] - Added products to cart: add-to-cart-sauce-labs-backpack, add-to-cart-sauce-labs-bike-light
+[INFO] 10-08-2025 17:17:26 [main] [TestCases.TCs_P04_checkOut] - Navigated to cart page
+[INFO] 10-08-2025 17:17:26 [main] [TestCases.TCs_P04_checkOut] - Actual URL after checkout: https://www.saucedemo.com/checkout-complete.html
+[INFO] 10-08-2025 17:17:26 [main] [TestCases.TCs_P04_checkOut] - Expected URL: https://www.saucedemo.com/checkout-complete.html
+[INFO] 10-08-2025 17:17:26 [main] [TestCases.TCs_P04_checkOut] - Checkout process completed successfully - test passed
+[INFO] 10-08-2025 17:17:27 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:17:27 [main] [TestCases.BaseTests] - Page objects set to null

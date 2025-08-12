@@ -1,0 +1,7 @@
+[INFO] 10-08-2025 17:20:50 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:20:50 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:20:51 [main] [TestCases.TCs_P01_loginPage] - Starting: InvalidLogin_EmptyPassword
+[INFO] 10-08-2025 17:20:52 [main] [TestCases.TCs_P01_loginPage] - Expected URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:20:52 [main] [TestCases.TCs_P01_loginPage] - Actual URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:20:52 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:20:52 [main] [TestCases.BaseTests] - Page objects set to null

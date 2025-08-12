@@ -1,0 +1,32 @@
+[INFO] 10-08-2025 17:17:57 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:17:57 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:17:58 [main] [TestCases.TCs_P01_loginPage] - Starting: ValidUsernameAndPassword
+[INFO] 10-08-2025 17:17:59 [main] [TestCases.TCs_P01_loginPage] - Expected URL: https://www.saucedemo.com/inventory.html
+[INFO] 10-08-2025 17:17:59 [main] [TestCases.TCs_P01_loginPage] - Actual URL: https://www.saucedemo.com/inventory.html
+[INFO] 10-08-2025 17:17:59 [main] [TestCases.TCs_P01_loginPage] - Login successful - redirected to landing page
+[INFO] 10-08-2025 17:17:59 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:17:59 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:18:00 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:18:00 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:18:01 [main] [TestCases.TCs_P01_loginPage] - Starting: InvalidLogin_EmptyUsername
+[INFO] 10-08-2025 17:18:01 [main] [TestCases.TCs_P01_loginPage] - Expected URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:18:01 [main] [TestCases.TCs_P01_loginPage] - Actual URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:18:01 [main] [TestCases.TCs_P01_loginPage] - Handled empty username correctly
+[INFO] 10-08-2025 17:18:01 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:18:01 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:18:03 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:18:03 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:18:03 [main] [TestCases.TCs_P01_loginPage] - Starting: InvalidLogin_EmptyPassword
+[INFO] 10-08-2025 17:18:04 [main] [TestCases.TCs_P01_loginPage] - Expected URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:18:04 [main] [TestCases.TCs_P01_loginPage] - Actual URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:18:04 [main] [TestCases.TCs_P01_loginPage] - Handled empty password correctly
+[INFO] 10-08-2025 17:18:04 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:18:04 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:18:05 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:18:05 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:18:06 [main] [TestCases.TCs_P01_loginPage] - Starting: InvalidLogin_EmptyFields
+[INFO] 10-08-2025 17:18:06 [main] [TestCases.TCs_P01_loginPage] - Captured error message: Epic sadface: Username is required
+[INFO] 10-08-2025 17:18:06 [main] [TestCases.TCs_P01_loginPage] - Is correct message shown? true
+[INFO] 10-08-2025 17:18:06 [main] [TestCases.TCs_P01_loginPage] - Error message verified successfully
+[INFO] 10-08-2025 17:18:07 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:18:07 [main] [TestCases.BaseTests] - Page objects set to null

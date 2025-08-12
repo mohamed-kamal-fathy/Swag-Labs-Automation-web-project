@@ -1,0 +1,3 @@
+[INFO] 10-08-2025 17:00:18 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:00:18 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:00:19 [main] [TestCases.EndToEnd] - Scenario 01: Start - Add items to cart and complete checkout

@@ -1,0 +1,24 @@
+[INFO] 10-08-2025 17:10:09 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:10:09 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:10:10 [main] [TestCases.EndToEnd] - Scenario 01: Start - Add items to cart and complete checkout
+[INFO] 10-08-2025 17:10:11 [main] [TestCases.EndToEnd] - Scenario 01: Completed successfully
+[INFO] 10-08-2025 17:10:12 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:10:12 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:10:13 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:10:13 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:10:13 [main] [TestCases.EndToEnd] - Scenario 02: Start - Add and remove items on landing page before checkout
+[INFO] 10-08-2025 17:10:15 [main] [TestCases.EndToEnd] - Scenario 02: Completed successfully
+[INFO] 10-08-2025 17:10:15 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:10:15 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:10:16 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:10:16 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:10:17 [main] [TestCases.EndToEnd] - Scenario 03: Start - Remove item from cart page before checkout
+[INFO] 10-08-2025 17:10:18 [main] [TestCases.EndToEnd] - Scenario 03: Completed successfully
+[INFO] 10-08-2025 17:10:18 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:10:18 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:10:19 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:10:19 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:10:20 [main] [TestCases.EndToEnd] - Scenario 04: Start - Remove items from landing page and cart page before completing order
+[INFO] 10-08-2025 17:10:21 [main] [TestCases.EndToEnd] - Scenario 04: Completed successfully
+[INFO] 10-08-2025 17:10:22 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:10:22 [main] [TestCases.BaseTests] - Page objects set to null

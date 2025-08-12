@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="landingPage_SanityTesting">
+    <listeners>
+        <listener class-name="listeners.MethodListener"/>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name ="Parameterised landingPage test on chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestCases.TCs_P02_landingPage"/>
+        </classes>
+    </test>
+</suite>

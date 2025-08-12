@@ -1,0 +1,56 @@
+[INFO] 10-08-2025 17:31:42 [TestNG-tests-1] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:31:42 [TestNG-tests-1] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:31:43 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Starting: InvalidLogin_EmptyFields
+[INFO] 10-08-2025 17:31:43 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Captured error message: Epic sadface: Username is required
+[INFO] 10-08-2025 17:31:43 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Is correct message shown? true
+[INFO] 10-08-2025 17:31:43 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Error message verified successfully
+[INFO] 10-08-2025 17:31:43 [TestNG-tests-1] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:31:43 [TestNG-tests-1] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:31:45 [TestNG-tests-1] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:31:45 [TestNG-tests-1] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:31:46 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Starting: InvalidLogin_EmptyPassword
+[INFO] 10-08-2025 17:31:46 [TestNG-tests-2] [drivers.DriverWebManager] - Driver Created On firefox
+[INFO] 10-08-2025 17:31:46 [TestNG-tests-2] [TestCases.BaseTests] - firefox browser launched with factory setup
+[INFO] 10-08-2025 17:31:46 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Expected URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:31:46 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Actual URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:31:46 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Handled empty password correctly
+[INFO] 10-08-2025 17:31:46 [TestNG-tests-1] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:31:46 [TestNG-tests-1] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:31:47 [TestNG-tests-2] [TestCases.TCs_P02_landingPage] - Starting: addingAllProductsToCartTC
+[INFO] 10-08-2025 17:31:48 [TestNG-tests-1] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:31:48 [TestNG-tests-1] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:31:49 [TestNG-tests-2] [TestCases.TCs_P02_landingPage] - Expected cart count: 6, Actual: 6
+[INFO] 10-08-2025 17:31:49 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Starting: InvalidLogin_EmptyUsername
+[INFO] 10-08-2025 17:31:49 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Expected URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:31:49 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Actual URL: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:31:49 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Handled empty username correctly
+[INFO] 10-08-2025 17:31:50 [TestNG-tests-1] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:31:50 [TestNG-tests-1] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:31:50 [TestNG-tests-2] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:31:50 [TestNG-tests-2] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:31:51 [TestNG-tests-1] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:31:51 [TestNG-tests-1] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:31:52 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Starting: ValidUsernameAndPassword
+[INFO] 10-08-2025 17:31:52 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Expected URL: https://www.saucedemo.com/inventory.html
+[INFO] 10-08-2025 17:31:52 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Actual URL: https://www.saucedemo.com/inventory.html
+[INFO] 10-08-2025 17:31:52 [TestNG-tests-1] [TestCases.TCs_P01_loginPage] - Login successful - redirected to landing page
+[INFO] 10-08-2025 17:31:52 [TestNG-tests-1] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:31:52 [TestNG-tests-1] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:31:54 [TestNG-tests-2] [drivers.DriverWebManager] - Driver Created On firefox
+[INFO] 10-08-2025 17:31:54 [TestNG-tests-2] [TestCases.BaseTests] - firefox browser launched with factory setup
+[INFO] 10-08-2025 17:31:56 [TestNG-tests-2] [TestCases.TCs_P02_landingPage] - Starting: addingRandomProductsToCartTC
+[INFO] 10-08-2025 17:31:56 [TestNG-tests-2] [TestCases.TCs_P02_landingPage] - Expected cart count: 3, Actual: 3
+[INFO] 10-08-2025 17:31:57 [TestNG-tests-2] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:31:57 [TestNG-tests-2] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:32:01 [TestNG-tests-2] [drivers.DriverWebManager] - Driver Created On firefox
+[INFO] 10-08-2025 17:32:01 [TestNG-tests-2] [TestCases.BaseTests] - firefox browser launched with factory setup
+[INFO] 10-08-2025 17:32:02 [TestNG-tests-2] [TestCases.TCs_P02_landingPage] - Starting: clickOnCartIconTC
+[INFO] 10-08-2025 17:32:03 [TestNG-tests-2] [TestCases.TCs_P02_landingPage] - Redirected URL: https://www.saucedemo.com/cart.html
+[INFO] 10-08-2025 17:32:04 [TestNG-tests-2] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:32:04 [TestNG-tests-2] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:32:07 [TestNG-tests-2] [drivers.DriverWebManager] - Driver Created On firefox
+[INFO] 10-08-2025 17:32:07 [TestNG-tests-2] [TestCases.BaseTests] - firefox browser launched with factory setup
+[INFO] 10-08-2025 17:32:08 [TestNG-tests-2] [TestCases.TCs_P02_landingPage] - Starting: logOutTC
+[INFO] 10-08-2025 17:32:09 [TestNG-tests-2] [TestCases.TCs_P02_landingPage] - Redirected URL after logout: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:32:10 [TestNG-tests-2] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:32:10 [TestNG-tests-2] [TestCases.BaseTests] - Page objects set to null

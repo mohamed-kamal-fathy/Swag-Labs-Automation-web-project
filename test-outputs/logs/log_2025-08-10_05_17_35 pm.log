@@ -1,0 +1,24 @@
+[INFO] 10-08-2025 17:17:36 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:17:36 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:17:37 [main] [TestCases.TCs_P02_landingPage] - Starting: addingAllProductsToCartTC
+[INFO] 10-08-2025 17:17:38 [main] [TestCases.TCs_P02_landingPage] - Expected cart count: 6, Actual: 6
+[INFO] 10-08-2025 17:17:39 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:17:39 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:17:40 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:17:40 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:17:41 [main] [TestCases.TCs_P02_landingPage] - Starting: addingRandomProductsToCartTC
+[INFO] 10-08-2025 17:17:42 [main] [TestCases.TCs_P02_landingPage] - Expected cart count: 3, Actual: 3
+[INFO] 10-08-2025 17:17:42 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:17:42 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:17:43 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:17:43 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:17:44 [main] [TestCases.TCs_P02_landingPage] - Starting: clickOnCartIconTC
+[INFO] 10-08-2025 17:17:44 [main] [TestCases.TCs_P02_landingPage] - Redirected URL: https://www.saucedemo.com/cart.html
+[INFO] 10-08-2025 17:17:45 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:17:45 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:17:46 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:17:46 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:17:47 [main] [TestCases.TCs_P02_landingPage] - Starting: logOutTC
+[INFO] 10-08-2025 17:17:48 [main] [TestCases.TCs_P02_landingPage] - Redirected URL after logout: https://www.saucedemo.com/
+[INFO] 10-08-2025 17:17:48 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:17:48 [main] [TestCases.BaseTests] - Page objects set to null

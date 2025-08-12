@@ -1,0 +1,12 @@
+[INFO] 10-08-2025 17:17:08 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:17:08 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:17:09 [main] [TestCases.TCs_P03_CartPage] - Starting: comparingPricesTC_001 - Comparing full cart prices
+[INFO] 10-08-2025 17:17:10 [main] [TestCases.TCs_P03_CartPage] - Is price matching: true
+[INFO] 10-08-2025 17:17:10 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:17:10 [main] [TestCases.BaseTests] - Page objects set to null
+[INFO] 10-08-2025 17:17:11 [main] [drivers.DriverWebManager] - Driver Created On chrome
+[INFO] 10-08-2025 17:17:11 [main] [TestCases.BaseTests] - chrome browser launched with factory setup
+[INFO] 10-08-2025 17:17:12 [main] [TestCases.TCs_P03_CartPage] - Starting: comparingPricesTC_002 - Adding random products
+[INFO] 10-08-2025 17:17:13 [main] [TestCases.TCs_P03_CartPage] - Number of products in cart: 3
+[INFO] 10-08-2025 17:17:13 [main] [TestCases.BaseTests] - Browser session is closed
+[INFO] 10-08-2025 17:17:13 [main] [TestCases.BaseTests] - Page objects set to null
