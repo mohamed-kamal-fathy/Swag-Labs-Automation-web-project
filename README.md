@@ -1,6 +1,6 @@
 # SwagLabs Test Automation Project
 
- End-to-end automation test framework for the SwagLabs e-commerce application using Selenium WebDriver with Java. It implements the Page Object Model (POM) design pattern and includes end-to-end testing capabilities for web applications.
+ End-to-end automation test framework for the SwagLabs e-commerce application using Selenium WebDriver with Java. It implements the Page Object Model (POM) design pattern and includes End-To-End testing capabilities for web applications.
 
 ## 🚀 Technologies Used
 
